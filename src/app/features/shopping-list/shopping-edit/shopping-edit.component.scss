@@ -1,0 +1,37 @@
+form{
+  display: flex;
+  margin-bottom: 20px;
+
+  .name{
+    display: flex;
+    flex-direction: column;
+    input{
+      width: 280px;
+      height: 19px;
+    }
+  }
+  .amount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    input{
+      width: 130px;
+      height: 19px;
+    }
+  }
+  label{
+    font-family: "Arial Black";
+    font-size: 15px;
+  }
+}
+button{
+  margin: 10px;
+  background-color: darkblue;
+  padding: 7px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70px;
+}
