@@ -1,10 +1,10 @@
 <div class="header">
     <div class="menu">
         <span>Recipe Book</span>
-        <span>Recipes</span>
-        <span>Shopping List</span>
+        <span routerLink="/recipes" routerLinkActive="activeLink">Recipes</span>
+        <span routerLink="/shopping-list" routerLinkActive="activeLink">Shopping List</span>
     </div>
-    <div class="dropdown-menu">
+    <div class="dropdown-menu" appDropdown>
         <span>Manage <i class="fa fa-caret-down"></i></span>
     </div>
 </div>

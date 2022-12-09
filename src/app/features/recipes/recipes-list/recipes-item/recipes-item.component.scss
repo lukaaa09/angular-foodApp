@@ -1,0 +1,31 @@
+.active{
+  .active{
+    background-color: #fc3a3a;
+
+  }
+}
+.main-content{
+  width: 400px;
+  height: 110px;
+  background-color: #ffeeee;
+  border-radius: 5px;
+
+  .items{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 35PX;
+    .content{
+      display: flex;
+      flex-direction: column;
+      span{
+        margin-top: 20px;
+      }
+    }
+  }
+  img{
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+  }
+}

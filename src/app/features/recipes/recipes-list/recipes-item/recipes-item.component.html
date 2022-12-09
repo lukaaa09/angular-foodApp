@@ -1,1 +1,13 @@
-<p>recipes-item works!</p>
+<div class="active">
+  <div class="main-content" routerLinkActive="active">
+    <div class="items" [routerLink]="[index]" style="cursor: pointer">
+      <div class="content" >
+        <span style="font-size: 19px; color: black">{{recipe.name}}</span>
+        <span style="font-size: 15px; color: black"> {{recipe.description}}</span>
+      </div>
+      <div class="img">
+        <img src="{{recipe.imagePath}}">
+      </div>
+    </div>
+  </div>
+</div>
