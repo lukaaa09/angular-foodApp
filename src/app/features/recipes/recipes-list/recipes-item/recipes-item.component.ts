@@ -7,7 +7,7 @@ import { IRecipe } from '../../../../core/model/recipe-model';
   styleUrls: ['./recipes-item.component.scss']
 })
 export class RecipesItemComponent implements  OnInit{
- @Input() recipe!: IRecipe
+  @Input() recipe!: IRecipe
   @Input() index!: number
   ngOnInit() {
   }

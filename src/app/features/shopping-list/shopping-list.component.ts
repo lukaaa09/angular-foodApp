@@ -18,6 +18,9 @@ export class ShoppingListComponent implements OnInit{
       this.ingredient = ingredient
     })
   }
+  onEditing(index: number) {
+    this.slService.startedEditing.next(index)
+  }
 
 
 }
